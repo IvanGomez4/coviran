@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.bg-verdeo {
+    background-color: #285B35;
+}
+.bg-verdec {
+    background-color: #297B3C;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.p-10-30 {
+    padding: 10px 30px;
+}
+.justify-content-between {    /*horizontalmente*/
+    justify-content: space-between;
+}
+.align-items-center {        /*verticalmente*/
+    align-items: center;
+}
+.gap-10 {
+    column-gap: 10px;
+}
+.text-white {
+    color: white;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;    /* para quitar los puntitos */
+    position: relative;
+    float: left;
+    margin-right: 16px;
+    color: grey;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    background-color: white;
+    margin-left: -10px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    margin-right: 0;
+    width: 300px;
+    border-bottom: solid 1px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    padding-left: 10px;
+}
+.cb {
+    clear: both;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.w-100 {
+    width: 100%;
+}
+nav ul li:hover {
+    color: rgb(0, 177, 0);
+}
+nav ul li ul li:hover {
+    color: black;
+    background-color: #CCCCCC;
+}
+.noticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin: 20px;
+}
+.box-shadow {
+    box-shadow: 0 0 10px rgb(94, 94, 94)
+}
+.text-align-center {
+    text-align: center;
+}
+.font-size {
+    font-size: 18px;
+}
+.w-22 {
+    width: 22%;
+}
+.m-10 {
+    margin: 3px;
+}
+.border-bottom {
+    border-bottom: solid 1px white;
+}
+.gap-1 {
+    column-gap: 1px;
+}
+.margin-left {
+    margin-left: 50px;
+}   
+.padding-bottom {
+    padding-bottom: 10px;
+}
+.nombres {
+    margin-bottom: 8px;
+}
+.colaboradores {
+   padding: 20px;
+}
+.patrocinadores {
+    margin: auto;
+	display: block;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+
+
+
+
